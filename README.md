@@ -9,9 +9,9 @@ Web scraping refers to the process of extracting data from websites. It involves
 
 ## Key Points
 Some of the key points learned from this project include:
-     - How to use Python for web scraping
-     - How to use the Beautiful Soup library to parse HTML
-     - How to use regular expressions to extract email addresses and phone numbers from web pages
+- How to use Python for web scraping
+- How to use the Beautiful Soup library to parse HTML
+- How to use regular expressions to extract email addresses and phone numbers from web pages
 
 ## Getting Started
 To use the web scraper tool, follow these steps:
