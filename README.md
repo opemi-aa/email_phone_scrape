@@ -24,7 +24,7 @@ To use the web scraper tool, follow these steps:
 The following libraries are required to run the web scraper tool:
 - Beautiful Soup 4
 - Requests.
-You can install these libraries using pip install -r requirements.txt
+---You can install these libraries using pip install -r requirements.txt
 
 ## Screenshots
 
