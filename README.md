@@ -20,6 +20,41 @@ To use the web scraper tool, follow these steps:
 3. Run the script by typing python email_phone_scrape.py in the command line
 4. Follow the prompts to enter the URL of the website to be scraped
 
+## Testing with a Local File
+To quickly test the script's functionality with known email and phone number patterns, you can use a local HTML file.
+
+1.  **Create a `test_page.html` file** in the project directory (`email_phone_scrape/`) with the following content:
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Test Page</title>
+    </head>
+    <body>
+
+    <h1>Contact Us</h1>
+
+    <p>Email: test@example.com</p>
+    <p>Phone: 123-456-7890</p>
+    <p>Another Phone: 0201-4638050</p>
+    <p>Support: support@test.org</p>
+    <p>Call us at (987) 654-3210</p>
+
+    <a href="http://example.com/another_page.html">Another Page</a>
+
+    </body>
+    </html>
+    ```
+
+2.  **Run the script** and provide the `file://` URL to your local `test_page.html`:
+    ```bash
+    python email_phone_scrape.py
+    ```
+    When prompted, enter:
+    `file:///home/kali/Documents/app-projects/email_phone_scrape/test_page.html`
+
+    This will demonstrate the script's ability to extract the specified email addresses and phone numbers.
+
 ## Dependencies 
 The following libraries are required to run the web scraper tool:
 - Beautiful Soup 4
